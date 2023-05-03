@@ -52,8 +52,8 @@ export class DashboardMainComponent implements OnInit {
         {
           name: "Teacher",
           data: [45, 60, 75, 51, 42, 42, 30],
-          color: '#3D5EE1',
-          
+          color: '#7f3de1',
+
         },
         {
           name: "Students",
@@ -64,9 +64,9 @@ export class DashboardMainComponent implements OnInit {
       chart: {
         height: 350,
         type: "line"
-        
+
       },
-      
+
       dataLabels: {
         enabled: false
       },
@@ -95,7 +95,7 @@ export class DashboardMainComponent implements OnInit {
       series: [
         {
           name: "Boys",
-          color: '#3D5EE1',
+          color: '#7f3de1',
           data: [420, 532, 516, 575, 519, 517, 454, 392, 262, 383, 446, 551, 563, 421, 563, 254, 452]
         },
         {
@@ -127,7 +127,7 @@ export class DashboardMainComponent implements OnInit {
       xaxis: {
         categories: [, , , , ,, ],
         labels: {
-          
+
         }
       },
       yaxis: {
@@ -148,6 +148,6 @@ export class DashboardMainComponent implements OnInit {
   }
 
   ngOnInit() {
- 
+
   }
 }

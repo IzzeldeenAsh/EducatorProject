@@ -53,8 +53,8 @@ export class DashboardStudentComponent implements OnInit {
         {
           name: "Teacher",
           data: [45, 60, 75, 51, 42, 42, 30],
-          color: '#3D5EE1',
-          
+          color: '#7f3de1',
+
         },
         {
           name: "Students",
@@ -65,9 +65,9 @@ export class DashboardStudentComponent implements OnInit {
       chart: {
         height: 350,
         type: "area"
-        
+
       },
-      
+
       dataLabels: {
         enabled: false
       },
