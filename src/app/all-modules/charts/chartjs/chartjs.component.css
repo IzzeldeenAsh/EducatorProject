@@ -1,0 +1,14 @@
+canvas#doughcharts {
+    height: 260px !important;
+    width: 260px !important;
+    margin: auto;
+}
+canvas#peichrt {
+    height: 260px !important;
+    width: 260px !important;
+    margin: auto;
+}
+canvas#verstackcharts {
+    height: 260px !important;
+
+}
